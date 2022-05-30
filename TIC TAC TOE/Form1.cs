@@ -26,5 +26,10 @@ namespace TIC_TAC_TOE
         {
             Application.Restart();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
