@@ -167,6 +167,7 @@
             // 
             // mENUToolStripMenuItem
             // 
+            this.mENUToolStripMenuItem.BackgroundImage = global::TIC_TAC_TOE.Properties.Resources.pigment_yellow_3_500x500;
             this.mENUToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mechanicsToolStripMenuItem,
             this.restartToolStripMenuItem,
@@ -180,6 +181,7 @@
             this.mechanicsToolStripMenuItem.Name = "mechanicsToolStripMenuItem";
             this.mechanicsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.mechanicsToolStripMenuItem.Text = "Mechanics";
+            this.mechanicsToolStripMenuItem.Click += new System.EventHandler(this.mechanicsToolStripMenuItem_Click);
             // 
             // restartToolStripMenuItem
             // 

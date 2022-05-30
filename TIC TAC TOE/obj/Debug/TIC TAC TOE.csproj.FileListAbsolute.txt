@@ -1,0 +1,11 @@
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\bin\Debug\TIC TAC TOE.exe.config
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\bin\Debug\TIC TAC TOE.exe
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\bin\Debug\TIC TAC TOE.pdb
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\obj\Debug\TIC TAC TOE.csproj.AssemblyReference.cache
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\obj\Debug\TIC TAC TOE.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\obj\Debug\TIC_TAC_TOE.Form1.resources
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\obj\Debug\TIC_TAC_TOE.Properties.Resources.resources
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\obj\Debug\TIC TAC TOE.csproj.GenerateResource.cache
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\obj\Debug\TIC TAC TOE.csproj.CoreCompileInputs.cache
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\obj\Debug\TIC TAC TOE.exe
+C:\Users\Bryce\source\repos\TIC TAC TOE\TIC TAC TOE\obj\Debug\TIC TAC TOE.pdb

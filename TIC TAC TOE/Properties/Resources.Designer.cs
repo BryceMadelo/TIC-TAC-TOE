@@ -69,5 +69,15 @@ namespace TIC_TAC_TOE.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pigment_yellow_3_500x500 {
+            get {
+                object obj = ResourceManager.GetObject("pigment-yellow-3-500x500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
