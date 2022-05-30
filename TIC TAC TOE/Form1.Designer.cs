@@ -57,6 +57,7 @@
             this.p1.Size = new System.Drawing.Size(66, 56);
             this.p1.TabIndex = 0;
             this.p1.UseVisualStyleBackColor = true;
+            this.p1.Click += new System.EventHandler(this.playerbutton_click);
             // 
             // p2
             // 
@@ -69,6 +70,7 @@
             this.p2.Size = new System.Drawing.Size(66, 56);
             this.p2.TabIndex = 1;
             this.p2.UseVisualStyleBackColor = true;
+            this.p2.Click += new System.EventHandler(this.playerbutton_click);
             // 
             // p3
             // 
@@ -81,6 +83,7 @@
             this.p3.Size = new System.Drawing.Size(66, 56);
             this.p3.TabIndex = 2;
             this.p3.UseVisualStyleBackColor = true;
+            this.p3.Click += new System.EventHandler(this.playerbutton_click);
             // 
             // p4
             // 
@@ -93,6 +96,7 @@
             this.p4.Size = new System.Drawing.Size(66, 56);
             this.p4.TabIndex = 3;
             this.p4.UseVisualStyleBackColor = true;
+            this.p4.Click += new System.EventHandler(this.playerbutton_click);
             // 
             // p5
             // 
@@ -105,6 +109,7 @@
             this.p5.Size = new System.Drawing.Size(66, 56);
             this.p5.TabIndex = 4;
             this.p5.UseVisualStyleBackColor = true;
+            this.p5.Click += new System.EventHandler(this.playerbutton_click);
             // 
             // p6
             // 
@@ -117,6 +122,7 @@
             this.p6.Size = new System.Drawing.Size(66, 56);
             this.p6.TabIndex = 5;
             this.p6.UseVisualStyleBackColor = true;
+            this.p6.Click += new System.EventHandler(this.playerbutton_click);
             // 
             // p7
             // 
@@ -129,6 +135,7 @@
             this.p7.Size = new System.Drawing.Size(66, 56);
             this.p7.TabIndex = 6;
             this.p7.UseVisualStyleBackColor = true;
+            this.p7.Click += new System.EventHandler(this.playerbutton_click);
             // 
             // p8
             // 
@@ -141,6 +148,7 @@
             this.p8.Size = new System.Drawing.Size(66, 56);
             this.p8.TabIndex = 7;
             this.p8.UseVisualStyleBackColor = true;
+            this.p8.Click += new System.EventHandler(this.playerbutton_click);
             // 
             // p9
             // 
@@ -153,6 +161,7 @@
             this.p9.Size = new System.Drawing.Size(66, 56);
             this.p9.TabIndex = 8;
             this.p9.UseVisualStyleBackColor = true;
+            this.p9.Click += new System.EventHandler(this.playerbutton_click);
             // 
             // menuStrip1
             // 
@@ -228,7 +237,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "GAME";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

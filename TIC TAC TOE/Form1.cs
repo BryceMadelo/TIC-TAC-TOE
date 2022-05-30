@@ -12,6 +12,10 @@ namespace TIC_TAC_TOE
 {
     public partial class Form1 : Form
     {
+        int XorO = 1;
+        bool turn = true; //true = X and false = 0 
+        int turn_XorO = 0; 
+
         public Form1()
         {
             InitializeComponent();
@@ -30,6 +34,18 @@ namespace TIC_TAC_TOE
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void playerbutton_click(object sender, EventArgs e)
+        {
+            Button playerbutton = (Button)sender;
+            if (turn)
+                playerbutton.Text = "X"; //First player
+            else
+                playerbutton.Text = "O";// Second player
+
+            turn = !turn;
+            turn_XorO++;
         }
     }
 }
