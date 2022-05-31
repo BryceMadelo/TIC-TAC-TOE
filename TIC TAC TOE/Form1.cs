@@ -45,7 +45,9 @@ namespace TIC_TAC_TOE
                 playerbutton.Text = "O";// Second player
 
             turn = !turn;//this switches turns of players
-      
+            
+            playerbutton.Enabled = false;// The button will not change after clicking
+
         }
 
     }
