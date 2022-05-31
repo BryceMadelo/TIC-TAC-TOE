@@ -48,6 +48,7 @@ namespace TIC_TAC_TOE
             
             playerbutton.Enabled = false;// The button will not change after clicking
 
+            playerbutton.BackColor = Color.PaleVioletRed;
         }
 
     }
