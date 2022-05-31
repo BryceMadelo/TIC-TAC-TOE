@@ -12,9 +12,9 @@ namespace TIC_TAC_TOE
 {
     public partial class Form1 : Form
     {
-        int XorO = 1;
+        int XorO = 0;
         bool turn = true; //true = X and false = 0 
-        int turn_XorO = 0; 
+         
 
         public Form1()
         {
@@ -44,8 +44,11 @@ namespace TIC_TAC_TOE
             else
                 playerbutton.Text = "O";// Second player
 
-            turn = !turn;
-            turn_XorO++;
+            turn = !turn;//this switches turns of players
+      
         }
+
     }
+
 }
+    
