@@ -70,6 +70,14 @@ namespace TIC_TAC_TOE
             else if ((p3.Text == p6.Text) && (p6.Text == p9.Text) && (!p3.Enabled))
                 WinnerIdentified = true;
 
+            // Horizontal Checker
+            else if ((p1.Text == p2.Text) && (p2.Text == p3.Text) && (!p1.Enabled))
+                WinnerIdentified = true;
+            else if ((p4.Text == p5.Text) && (p5.Text == p6.Text) && (!p4.Enabled))
+                WinnerIdentified = true;
+            else if ((p7.Text == p8.Text) && (p8.Text == p9.Text) && (!p7.Enabled))
+                WinnerIdentified = true;
+
             if (WinnerIdentified)
             {
                 string win = " ";
