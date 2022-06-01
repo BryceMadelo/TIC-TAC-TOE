@@ -13,19 +13,19 @@ namespace TIC_TAC_TOE
     public partial class Form1 : Form
     {
         int XorO = 0;
+        int turn_XorO = 1;
         bool turn = true; //true = X and false = 0 
-         
 
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void mechanicsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Mec_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.");
         }
-
+     
         private void restartToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Restart();
@@ -40,17 +40,22 @@ namespace TIC_TAC_TOE
         {
             Button playerbutton = (Button)sender;
             if (turn)
+            {
                 playerbutton.Text = "X"; //First player
+            }
             else
+            {
                 playerbutton.Text = "O";// Second player
-
+            }
+                
             turn = !turn;//this switches turns of players
-            
+            turn_XorO++;
+
             playerbutton.Enabled = false;// The button will not change after clicking
 
             playerbutton.BackColor = Color.PaleVioletRed;
+        
         }
-
     }
 
 }
