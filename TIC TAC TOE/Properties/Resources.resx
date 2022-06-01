@@ -124,4 +124,7 @@
   <data name="pigment-yellow-3-500x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pigment-yellow-3-500x500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="47c291aeec4d497d911fd4cfa09ae554" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\47c291aeec4d497d911fd4cfa09ae554.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

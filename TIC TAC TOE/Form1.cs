@@ -78,13 +78,21 @@ namespace TIC_TAC_TOE
             else if ((p7.Text == p8.Text) && (p8.Text == p9.Text) && (!p7.Enabled))
                 WinnerIdentified = true;
 
+            //Diagonal Checker
+            else if ((p1.Text == p5.Text) && (p5.Text == p9.Text) && (!p1.Enabled))
+                WinnerIdentified = true;
+            else if ((p3.Text == p5.Text) && (p5.Text == p7.Text) && (!p7.Enabled))
+                WinnerIdentified = true;
+
+
             if (WinnerIdentified)
             {
                 string win = " ";
                 if (turn)
                     win = "Player O";
                 else win = "Player X";
-                MessageBox.Show("Congratulations " + win + " for winning the game!");
+                MessageBox.Show("Congratulations " + win + " for winning the game!" );
+                
             }
             else if (turn_XorO == 10)
             {

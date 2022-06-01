@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.p1 = new System.Windows.Forms.Button();
             this.p2 = new System.Windows.Forms.Button();
             this.p3 = new System.Windows.Forms.Button();
@@ -118,6 +119,7 @@
             this.p6.Name = "p6";
             this.p6.Size = new System.Drawing.Size(66, 56);
             this.p6.TabIndex = 5;
+            this.p6.Text = " ";
             this.p6.UseVisualStyleBackColor = true;
             this.p6.Click += new System.EventHandler(this.playerbutton_click);
             // 
@@ -230,6 +232,7 @@
             this.Controls.Add(this.p3);
             this.Controls.Add(this.p2);
             this.Controls.Add(this.p1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "GAME";
             this.ResumeLayout(false);
