@@ -54,9 +54,37 @@ namespace TIC_TAC_TOE
 
             playerbutton.Enabled = false;// The button will not change after clicking
 
-            playerbutton.BackColor = Color.PaleVioletRed;
-        
+            playerbutton.BackColor = Color.PaleVioletRed; //Colors of buttons after clicking       
+
+            WinnerChecker();    
         }
+
+        private void WinnerChecker()
+        {
+            bool WinnerIdentified = false;
+            // Vertical Checker
+            if ((p1.Text == p4.Text) && (p4.Text == p7.Text) && (!p1.Enabled))
+                WinnerIdentified = true;
+            else if ((p2.Text == p5.Text) && (p5.Text == p8.Text) && (!p2.Enabled))
+                WinnerIdentified = true;
+            else if ((p3.Text == p6.Text) && (p6.Text == p9.Text) && (!p3.Enabled))
+                WinnerIdentified = true;
+
+            if (WinnerIdentified)
+            {
+                string win = " ";
+                if (turn)
+                    win = "Player O";
+                else win = "Player X";
+                MessageBox.Show("Congratulations " + win + " for winning the game!");
+            }
+            else if (turn_XorO == 10)
+            {
+                MessageBox.Show("The game is draw!");
+            }
+
+        }
+
     }
 
 }
