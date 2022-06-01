@@ -196,6 +196,7 @@
             this.Ex.TabIndex = 12;
             this.Ex.Text = "Exit";
             this.Ex.UseVisualStyleBackColor = false;
+            this.Ex.Click += new System.EventHandler(this.Ex_Click);
             // 
             // Res
             // 
@@ -208,6 +209,7 @@
             this.Res.TabIndex = 13;
             this.Res.Text = "New Game";
             this.Res.UseVisualStyleBackColor = false;
+            this.Res.Click += new System.EventHandler(this.Res_Click);
             // 
             // Form1
             // 
