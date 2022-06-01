@@ -84,7 +84,6 @@ namespace TIC_TAC_TOE
             else if ((p3.Text == p5.Text) && (p5.Text == p7.Text) && (!p7.Enabled))
                 WinnerIdentified = true;
 
-
             if (WinnerIdentified)
             {
                 string win = " ";
@@ -92,7 +91,7 @@ namespace TIC_TAC_TOE
                     win = "Player O";
                 else win = "Player X";
                 MessageBox.Show("Congratulations " + win + " for winning the game!" );
-                
+                Application.Restart();
             }
             else if (turn_XorO == 10)
             {
