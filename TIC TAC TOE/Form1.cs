@@ -91,7 +91,7 @@ namespace TIC_TAC_TOE
                     win = "Player O";
                 else win = "Player X";
                 MessageBox.Show("Congratulations " + win + " for winning the game!" );
-                Application.Restart();
+                Application.Restart();//After clicking ok, the game will restart.
             }
             else if (turn_XorO == 10)
             {
